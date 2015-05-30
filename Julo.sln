@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuloOFX", "JuloOFX\JuloOFX.csproj", "{EB1972BC-95A2-42A1-9608-A1720AF7A18D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuloOFX", "JuloOFX\JuloOFX.csproj", "{C1D378D0-2A8C-4639-BBD4-59CB816B9835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuloOFXTest", "JuloOFXTest\JuloOFXTest.csproj", "{E73DA5F9-7B51-44F9-82D1-E4851B4416B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB1972BC-95A2-42A1-9608-A1720AF7A18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB1972BC-95A2-42A1-9608-A1720AF7A18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB1972BC-95A2-42A1-9608-A1720AF7A18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB1972BC-95A2-42A1-9608-A1720AF7A18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D378D0-2A8C-4639-BBD4-59CB816B9835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D378D0-2A8C-4639-BBD4-59CB816B9835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D378D0-2A8C-4639-BBD4-59CB816B9835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D378D0-2A8C-4639-BBD4-59CB816B9835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73DA5F9-7B51-44F9-82D1-E4851B4416B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73DA5F9-7B51-44F9-82D1-E4851B4416B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73DA5F9-7B51-44F9-82D1-E4851B4416B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73DA5F9-7B51-44F9-82D1-E4851B4416B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
