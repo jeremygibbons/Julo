@@ -12,7 +12,7 @@ namespace JuloOFXTest
         static void Main(string[] args)
         {
             JuloOFX.OFXFileHeader h;
-            using (System.IO.StreamReader file = new System.IO.StreamReader(@"test.ofx"))
+            using (System.IO.StreamReader file = new System.IO.StreamReader(@"..\..\testdata\test.ofx"))
             {
                 JuloOFX.TransactionReader tr = new JuloOFX.TransactionReader(file);
                 h = tr.ReadOFXHeaders(file);
