@@ -12,13 +12,16 @@ namespace JuloOFXTest
         static void Main(string[] args)
         {
             JuloOFX.OFXFileHeader h;
+            JuloOFX.OFXFileContents c;
             using (System.IO.StreamReader file = new System.IO.StreamReader(@"..\..\testdata\test.ofx"))
             {
                 JuloOFX.TransactionReader tr = new JuloOFX.TransactionReader(file);
                 h = tr.ReadOFXHeaders(file);
+                c = tr.ReadOFXContents(file);
             }
 
             h.printHeaders();
+            Console.Out.WriteLine(c.xmlContents.ToString());
             Console.ReadKey();
         }
     }

@@ -24,6 +24,11 @@ namespace JuloOFX
             return OFXFileHeader.GetOFXHeadersFromTextReader(textReader);
         }
 
+        public OFXFileContents ReadOFXContents(System.IO.TextReader textReader)
+        {
+            return OFXFileContents.GetOFXContentsFromTextReader(textReader);
+        }
+
     }
 
     public class OFXFileHeader
