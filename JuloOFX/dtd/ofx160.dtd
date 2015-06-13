@@ -1,3 +1,5 @@
+<!DOCTYPE OFX [
+
 <!--#version 160 -->
 
 <!--
@@ -3492,4 +3494,6 @@
 
 <!-- supports updating PRESNAMEADDRESS on the server using SVCCHG in ACCTRQ -->
 <!ELEMENT CANUPDATEPRESNAMEADDRESS    - o   %BOOLTYPE>    
+
+]>
 
